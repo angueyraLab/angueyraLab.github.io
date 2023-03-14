@@ -1,11 +1,16 @@
-- title: "Identification of transcription factors involved in the specification of photoreceptor subtypes"
-  citation: "**Angueyra J**, Kunze VP, Patak LK, Kim H, Kindt KS, Li W. *biorXiv*. 2021.11.26.470161"
+- title: "Transcription factors underlying photoreceptor diversity"
+  citation: "**Angueyra J**, Kunze VP, Patak LK, Kim H, Kindt KS, Li W. *eLife*. 2021.11.26.470161"
   image: "/static/img/pub/zfAdult.png"
-  date: "2021-11-26"
-  doi: "10.1101/2021.11.26.470161"
-  pdf: "https://www.biorxiv.org/content/10.1101/2021.11.26.470161v3"
+  date: "2023-02-06"
+  doi: "10.7554/eLife.81579"
+  pdf: "https://elifesciences.org/articles/81579"
 
-
+- title: "Neurexin 3 is required for the specific S-cone to S-cone bipolar cell synapse in the mammalian retina"
+  citation: "Kunze VP, **Angueyra J**, Ball JM, Thomsen MB, Li X, Sabnis A, Nadal-Nicolas F, Li W. *bioRXiv*"
+  image: "/static/img/pub/sqNrxn3.png"
+  date: "2023-02-13"
+  doi: "10.1101/2023.02.13.527055"
+  pdf: "https://www.biorxiv.org/content/10.1101/2023.02.13.527055v1"
 
 - title: "Predicting and Manipulating Cone Responses to Naturalistic Inputs"
   citation: "**Angueyra JM**, Baudin J, Schwartz GW, Rieke FM. *J. Neurosci*. 2021 10.1523"
