@@ -6,12 +6,13 @@ group: home
 
 <img src="/static/img/hcBloom.jpg" class="img-responsive center-block" alt="A bloom of horizontal cells in the zebrafish retina"/>
 
-<h1 class="text-center">Juan Angueyra, M.D., Ph.D.</h1>
+<h1 class="text-center">Visual System Development <br> Angueyra Lab</h1>
 
 <p class="lead text-justify">
-Visual neuroscientist and developmental biologist.<br/>
-[Assistant Professor](https://biology.umd.edu/people/juan-angueyra) at University of Maryland, College Park, in the [Department of Biology](https://biology.umd.edu/) and the [Brain and Behavior Institute](https://bbi.umd.edu/) <br/>
-Formerly a postdoc with [Wei Li at NEI](https://irp.nih.gov/pi/wei-li) and [Katie Kindt at NIDCD](https://www.nidcd.nih.gov/about/staff/katie-kindt-phd) <br/>
-Before that, graduate student with [Fred Rieke at UW's PBIO](https://depts.washington.edu/riekelab/)
-
+Our laboratory strives to be a cooperative, diverse and curious research group.<br/>
+We are generally interested in the development of the eye and the visual system. In particular we are interested in how the cells and circuits in the retina are built during development.<br/>
+We mainly use zebrafish as a model system that allows us to study this process in vivo and to create genetic manipulations, but our collaborations expand our research further.<br/>
+Our lab is hiring! We have open positions for technicians, graduate students and postdocs. You can find the contact for info here: 
+[Juan Angueyra](https://biology.umd.edu/people/juan-angueyra)<br/>
+Our lab is located at University of Maryland, College Park, in the [Department of Biology](https://biology.umd.edu/) and the [Brain and Behavior Institute](https://bbi.umd.edu/) <br/>
 </p>

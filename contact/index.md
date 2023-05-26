@@ -6,9 +6,12 @@ group: contact
 
 <h1 class="page-header text-center"> Contact </h1>
 
-You can find me online at [Mastodon](https://neuromatch.social/@juanonyme){:rel='me'}, on [twitter](http://twitter.com/juanonyme), and [github](http://github.com/angueyraLab).  
-My website is here: [angueyraLab.github.io](http://angueyraLab.github.io)
+Our group's website is here: [angueyraLab.github.io](http://angueyraLab.github.io)
+Our repository for code is hosted in [github](http://github.com/angueyraLab)<br/>
+Juan's affiliation page is here [UMD Biology](https://biology.umd.edu/people/juan-angueyra)
+Juan can also be found online at [Mastodon](https://neuromatch.social/@juanonyme){:rel='me'} and (for now) on [twitter](http://twitter.com/juanonyme).<br/><br/>
 
-I strive to share all of my work, scientific or otherwise, as widely as possible, and would be happy to share anything that is not available on public sources.
 
-You can follow my dog's instagram at [@Bowie.Brite](https://instagram.com/bowie.brite)
+We strive to share all of our work, scientific or otherwise, as widely as possible, and we would be happy to share anything that is not available on public sources.<br/><br/>
+
+You can follow Bowie's instagram at [@Bowie.Brite](https://instagram.com/bowie.brite)

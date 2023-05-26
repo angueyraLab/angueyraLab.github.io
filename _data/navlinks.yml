@@ -2,6 +2,10 @@
   url: /
   group: home
 
+- name: people
+  url: /people
+  group: people
+
 - name: publications
   url: /publications
   group: publications
