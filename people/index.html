@@ -63,9 +63,9 @@ group: people
                     <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
                     {% endfor %}
             {% endif %}
+            <div>{{ people.funfact | markdownify }}</div>
         </ul>
       </div>
-      <div>{{ people.funfact | markdownify }}</div>
       </div>
       <br>
   {% endfor %}
