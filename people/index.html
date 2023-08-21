@@ -58,7 +58,7 @@ group: people
             <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
             {% endif %}
             {% if people.links %}
-            <strong>Additional Links</strong>{% if people.links.size > 1 %}s{% endif %}:
+            <strong>Additional Links</strong>{% if people.links.size > 1 %}{% endif %}:
                     {% for link in people.links %}
                     <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
                     {% endfor %}

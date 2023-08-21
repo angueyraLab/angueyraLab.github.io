@@ -4,6 +4,6 @@
   image: "/static/img/ppl/Householder.jpeg"
   email: chouseho (a) umd.edu
   links: 
-    url: "www.linkedin.com/in/carinna-householder"
-    name: "LinkedIn/carinna-householder"
+    url: ["www.linkedin.com/in/carinna-householder"]
+    name: ["LinkedIn/carinna-householder"]
   funfact: "I own a pair of blobfish slippers"
