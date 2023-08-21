@@ -23,11 +23,11 @@ group: people
               <ul>
                   <!--email-->
                   {% if people.email %}
-                  <li>e-mail: <a href="{people.email}" alt = "email link: {{people.email}}"> {{people.email}}</a></li>
+                    <li>e-mail: <a href="{people.email}" alt = "email link: {{people.email}}"> {{people.email}}</a></li>
                   {% endif %}
                   <!--PMCID - optional -->
                   {% if people.pmcid %}
-                  <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+                    <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
                   {% endif %}
                   {% if people.orcid %}
                     <a href="http://orcid.org/{{person.orcid}}" class="align-middle"> 
