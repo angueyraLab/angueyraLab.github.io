@@ -102,6 +102,35 @@ group: people
       <br>
   {% endfor %}
 
+<h2>Staff</h2>
+  {% for people in site.data.peopleStaff %}
+      <hr>
+      <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{people.id}}">
+      <div style="font-size: 120% !important; width: 100%">{{ people.title | markdownify }}</div><div>{{ people.bio | markdownify }}</div>
+      </div>
+      <div class="row" style="padding-top: 20px; margin-top: - 20px;">
+        <div class="col-sm-6">
+          <img class = "img-responsive" src = "{{people.image}}" alt = "Angueyra" style="max-height: 200px;">
+        </div>
+        <ul class="col-sm-6">
+            <!--email-->
+            {% if people.email %}
+            <li>e-mail: <a href="{people.email}" alt = "email link: {{people.email}}"> {{people.email}}</a></li>
+            {% endif %}
+            <!--PMCID - optional -->
+            {% if people.pmcid %}
+            <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+            {% endif %}
+            {% if people.links %}
+            <strong>Additional Links</strong>{% if people.links.size > 1 %}s{% endif %}:
+                    {% for link in people.links %}
+                    <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                    {% endfor %}
+            {% endif %}
+        </ul>
+      </div>
+      <br>
+  {% endfor %}
 <h2>Lab Alumni</h2>
 
 </div>
