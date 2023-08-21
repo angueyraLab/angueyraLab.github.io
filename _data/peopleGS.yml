@@ -3,7 +3,7 @@
   bio: "I earned my bachelors degree in Biology from Roanoke College in 2021. In undergrad, I studied how light conditons influence monolignol synthesis in the Arabidopsis thaliana. I became fascinated by how the environment influences epigenetic networks of genes and further pursued this at UMD. In the Visual System Development lab, I am interested in exploring how transcription factors infuence the generation of the final cellular identity of photoreceptors in the developing retina."
   image: "/static/img/ppl/Householder.jpeg"
   email: chouseho (a) umd.edu
-  links: 
+  - links: 
     url: ["www.linkedin.com/in/carinna-householder"]
     name: ["LinkedIn/carinna-householder"]
   funfact: "I own a pair of blobfish slippers"
