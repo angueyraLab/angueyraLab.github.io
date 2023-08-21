@@ -13,29 +13,32 @@ group: people
           <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{people.id}}"></div>
           <div class="row" style="padding-top: 20px; margin-top: - 20px;">
             <div class="col-sm-6">
+              <div style="font-size: 120% !important; width: 100%">{{ people.title | markdownify }}</div>
               <img class = "img-responsive" src = "{{people.image}}" alt = "Angueyra" style="max-height: 200px;">
             </div>
             <div class="col-sm-6">
-              <div style="font-size: 120% !important; width: 100%">{{ people.title | markdownify }}</div><div>{{ people.bio | markdownify }}</div>
+              <div>{{ people.bio | markdownify }}</div>
             </div>
-            <ul class="col-sm-6">
-                <!--email-->
-                {% if people.email %}
-                <li>e-mail: <a href="{people.email}" alt = "email link: {{people.email}}"> {{people.email}}</a></li>
-                {% endif %}
-                <!--PMCID - optional -->
-                {% if people.pmcid %}
-                <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
-                {% endif %}
-                {% if people.links %}
-                <strong>Additional Links</strong>{% if people.links.size > 1 %}{% endif %}:
-                        {% for link in people.links %}
-                        <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
-                        {% endfor %}
-                <strong>Fun Fact</strong>
-                <div><em>{{ people.funfact | markdownify }}</em></div>
-                {% endif %}
-            </ul>
+            <div class="col-sm-6">
+              <ul>
+                  <!--email-->
+                  {% if people.email %}
+                  <li>e-mail: <a href="{people.email}" alt = "email link: {{people.email}}"> {{people.email}}</a></li>
+                  {% endif %}
+                  <!--PMCID - optional -->
+                  {% if people.pmcid %}
+                  <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+                  {% endif %}
+                  {% if people.links %}
+                  <strong>Additional Links</strong>{% if people.links.size > 1 %}{% endif %}:
+                          {% for link in people.links %}
+                          <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                          {% endfor %}
+                  <strong>Fun Fact</strong>
+                  <div><em>{{ people.funfact | markdownify }}</em></div>
+                  {% endif %}
+              </ul>
+            </div>
           </div>
           <br>
   {% endfor %}
