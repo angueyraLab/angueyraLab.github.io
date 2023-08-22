@@ -40,7 +40,7 @@ group: people
                     <img class="inline-block mem-logo" src="/static/img/logo/linkedin_logo.svg">
                     LinkedIn </a> <br>
                   {% endif %}
-                  {% if person.scholar %}
+                  <!-- {% if person.scholar %}
                     <a href= "http://scholar.google.com/citations?user={{person.scholar}}">
                     <img class="inline-block mem-logo" src="/static/img/logo/gscholar_logo.svg">
                     Scholar Citations </a> <br>
@@ -53,7 +53,7 @@ group: people
                   {% endif %}
                   {% if person.github %}
                     <a href= "http://github.com/{{person.github}}"> {% octicon mark-github %} {{person.github}} </a> <br>
-                  {% endif %}
+                  {% endif %} -->
                   {% if people.links %}
                     <strong>Additional Links</strong>{% if people.links.size > 1 %}{% endif %}:
                     {% for link in people.links %}
