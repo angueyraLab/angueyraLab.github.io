@@ -15,3 +15,5 @@ Juan can also be found online on [Mastodon](https://neuromatch.social/@juanonyme
 We strive to share all of our work, scientific or otherwise, as widely as possible, and we would be happy to share anything that is not available on public sources.<br/><br/>
 
 You can follow Bowie's instagram at [@Bowie.Brite](https://instagram.com/bowie.brite)<br/><br/>
+
+<img class="img-fluid" src = "/static/img/zfBaker.svg" alt = "zebrafish with chef's hat and carrying bread">
