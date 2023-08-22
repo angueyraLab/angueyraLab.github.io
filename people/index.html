@@ -30,9 +30,15 @@ group: people
                     <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
                   {% endif %}
                   {% if people.orcid %}
-                    <a href="http://orcid.org/{{person.orcid}}" class="align-middle"> 
+                    <a href="http://orcid.org/{{people.orcid}}" class="align-middle"> 
                     <img class="inline-block mem-logo" src="/static/img/logo/orcid_logo.svg">
                     {{people.orcid}}
+                    </a> <br>
+                  {% endif %}
+                  {% if people.twitter %}
+                    <a href= "http://twitter.com/{{people.twitter}}">
+                      <img class="inline-block mem-logo" src="/static/img/logo/twitter_logo.svg">
+                      @{{people.twitter}} 
                     </a> <br>
                   {% endif %}
                   {% if people.links %}
