@@ -16,4 +16,4 @@ We strive to share all of our work, scientific or otherwise, as widely as possib
 
 You can follow Bowie's instagram at [@Bowie.Brite](https://instagram.com/bowie.brite)<br/><br/>
 
-<img class="img-fluid" src = "/static/img/zfBaker.svg" alt = "zebrafish with chef's hat and carrying bread">
+<img class="img-fluid" src = "/static/img/zfBaker.svg" alt = "zebrafish with chef's hat and carrying bread" style="max-height: 400px;">
