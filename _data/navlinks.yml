@@ -18,6 +18,10 @@
   url: /blog
   group: blog
 
+- name: JoinUs
+  url: /JoinUs
+  group: JoinUs
+
 - name: contact
   url: /contact
   group: contact
