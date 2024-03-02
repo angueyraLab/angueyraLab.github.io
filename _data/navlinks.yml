@@ -14,6 +14,10 @@
   url: /resources
   group: resources
 
+- name: danioTree
+  url: /danioTree
+  group: danioTree
+
 - name: blog
   url: /blog
   group: blog
