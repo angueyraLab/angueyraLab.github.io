@@ -12,4 +12,4 @@ Juan Angueyra the current admin of danioTree, and would love to see this grow as
 If you (or someone you know) has an entry on neuroTree or any other academicTree, you can be easily cross-listed and added to danioTree. You just need to fill this short form: [https://forms.gle/Yk7DwGcUpuwM2jfz9](https://forms.gle/Yk7DwGcUpuwM2jfz9)
 
 
-<iframe id="danioTree" src="https://academictree.org/danio" style="width:90%; height:200%" frameborder="0"></iframe>
+<iframe id="danioTree" src="https://academictree.org/danio" style="width:90%; height:70vh" frameborder="0"></iframe>
