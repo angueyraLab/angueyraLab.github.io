@@ -14,10 +14,14 @@ group: people
     <div style="font-size: 120% !important; width: 100%">{{ people.title | markdownify }}</div>
     <div class="row" style="padding-top: 20px; margin-top: - 20px;">
       <div class="col-sm-3 text-center">
-        <img src = "{{people.image}}" alt = "Angueyra" style="max-height: 200px;">
-      </div>
-      <div class="col-sm-2 text-center">
-        <img src = "{{people.monster}}" alt = "monsterAngueyra" style="max-height: 100px;">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src = "{{people.image}}" alt = "Angueyra" style="max-height: 200px;">
+          </div>
+          <div class="col-sm-3">
+            <img src = "{{people.monster}}" alt = "monsterAngueyra" style="max-height: 100px;">
+          </div>
+        </div>
       </div>
       <div class="col-sm-6">
         {{ people.bio | markdownify }}
