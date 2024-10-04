@@ -2,6 +2,7 @@
   id: "householder"
   bio: "I earned my bachelors degree in Biology from Roanoke College in 2021. In undergrad, I studied how light conditons influence monolignol synthesis in the Arabidopsis thaliana. I became fascinated by how the environment influences epigenetic networks of genes and further pursued this at UMD. In the Visual System Development lab, I am interested in exploring how transcription factors infuence the generation of the final cellular identity of photoreceptors in the developing retina."
   image: "/static/img/ppl/Householder.jpeg"
+  monster: "/static/img/ppl/monster_CMH.png"
   email: chouseho (a) umd.edu
   linkedin: carinna-householder
   # links: 
@@ -13,6 +14,7 @@
   id: "asolee"
   bio: "I am a PhD student in Biological Sciences, in the BEES program. I graduated from Mount Holyoke College, where I earned my Bachelor's degree in Neuroscience and Behavior as well as a certificate in Coastal and Marine Sciences. Currently, I'm working on a project investigating the cone-specific pathways that underlie shoaling behavior in zebrafish. In addition to contributing to knowledge about retinal development, I am passionate about addressing climate change and other anthropogenic issues using zebrafish models. I'm PADI SCUBA certified, enjoy exploring and drawing in art museums, and crocheting."
   image: "/static/img/ppl/Autumn.png"
+  monster: "/static/img/ppl/monster_ASL.png"
   email: asolee24 (a) umd.edu
   linkedin: autumn-lee-a524b928a
   funfact: "I'm PADI SCUBA certified, enjoy exploring and drawing in art museums, and crocheting."
@@ -21,6 +23,7 @@
   id: "iliang"
   bio: "I obtained my Bachelor’s degree in Neurobiology from the University of California, Davis, in 2023. Throughout my undergraduate studies, I investigated the firing profiles of neurons in the primary visual cortex, analyzing their responses to various stimulus patterns in their receptive fields. As a member of the Visual System Development Lab, my research centers on understanding the development of visual circuits. My primary focus is on discerning how different genes influence synaptic activity, which is a pivotal factor in the communication and evolution of photoreceptors."
   image: "/static/img/ppl/Iris.png"
+  monster: "/static/img/ppl/monster_IL.png"
   email: yliang03 (a) umd.edu
   # linkedin: autumn-lee-a524b928a
   funfact: "I have the cutest cat named Latte."

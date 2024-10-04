@@ -109,7 +109,14 @@ group: people
     <div style="font-size: 120% !important; width: 100%">{{ people.title | markdownify }}</div>
     <div class="row" style="padding-top: 20px; margin-top: - 20px;">
       <div class="col-sm-3 text-center">
-        <img src = "{{people.image}}" alt = "Angueyra" style="max-height: 200px;">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src = "{{people.image}}" alt = "Pic" style="max-height: 200px;">
+          </div>
+          <div class="col-sm-3">
+            <img src = "{{people.monster}}" alt = "Monster" style="max-height: 100px;">
+          </div>
+        </div>
       </div>
       <div class="col-sm-6">
         {{ people.bio | markdownify }}
@@ -197,7 +204,14 @@ group: people
     <div style="font-size: 120% !important; width: 100%">{{ people.title | markdownify }}</div>
     <div class="row" style="padding-top: 20px; margin-top: - 20px;">
       <div class="col-sm-3 text-center">
-        <img src = "{{people.image}}" alt = "Angueyra" style="max-height: 200px;">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src = "{{people.image}}" alt = "Pic" style="max-height: 200px;">
+          </div>
+          <div class="col-sm-3">
+            <img src = "{{people.monster}}" alt = "Monster" style="max-height: 100px;">
+          </div>
+        </div>
       </div>
       <div class="col-sm-6">
         {{ people.bio | markdownify }}
@@ -285,7 +299,14 @@ group: people
     <div style="font-size: 120% !important; width: 100%">{{ people.title | markdownify }}</div>
     <div class="row" style="padding-top: 20px; margin-top: - 20px;">
       <div class="col-sm-3 text-center">
-        <img src = "{{people.image}}" alt = "Angueyra" style="max-height: 200px;">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src = "{{people.image}}" alt = "Pic" style="max-height: 200px;">
+          </div>
+          <div class="col-sm-3">
+            <img src = "{{people.monster}}" alt = "Monster" style="max-height: 100px;">
+          </div>
+        </div>
       </div>
       <div class="col-sm-6">
         {{ people.bio | markdownify }}
@@ -370,11 +391,18 @@ group: people
   <h2>Lab Alumni</h2>
   {% for people in site.data.peopleAlumni %}
     <hr>
-    <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{people.id}}"></div>
-    <div style="font-size: 120% !important; width: 100%">{{ people.title | markdownify }}</div>
-    <div class="row" style="padding-top: 20px; margin-top: - 20px;">
       <div class="col-sm-3 text-center">
-        <img src = "{{people.image}}" alt = "Angueyra" style="max-height: 200px;">
+        <div class="row">
+          <div class="col-sm-3">
+            {{people.id | people.title | markdownify }}
+          </div>
+          <div class="col-sm-3">
+            <img src = "{{people.image}}" alt = "Pic" style="max-height: 200px;">
+          </div>
+          <div class="col-sm-3">
+            <img src = "{{people.monster}}" alt = "Monster" style="max-height: 100px;">
+          </div>
+        </div>
       </div>
       <div class="col-sm-6">
         {{ people.bio | markdownify }}
