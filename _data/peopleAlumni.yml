@@ -1,10 +1,17 @@
-- title: "Jared Mitchell (Undergrad)"
+- title: "Usuy D. León Tolosa (Former Technician)"
+  id: "usuy"
+  currently: ""
+  image: "/static/img/ppl/Usuy.jpeg"
+  monster: "/static/img/ppl/monster_UL.png"
+  email: usuary (a) umd.edu
+  mastodon: neuromatch.social/@usuy
+  orcid: 0000-0001-7868-9934"
+  # links: 
+  funfact: "In my free time I enjoy rock climbing, knitting and bringing old microscopes back to life"
+
+- title: "Jared Mitchell (Former Undergrad)"
   id: "Jared"
-  bio: ""
+  currently: "UMD undergrad"
   image: "/static/img/ppl/Mitchell.png"
   monster: "/static/img/ppl/monster_Jared.png"
-  # email: usuary (a) umd.edu
-  # mastodon: neuromatch.social/@usuy
-  # orcid: 0000-0001-7868-9934"
-  # links: 
-  # funfact: "In my free time I enjoy rock climbing, knitting and bringing old microscopes back to life"
+
