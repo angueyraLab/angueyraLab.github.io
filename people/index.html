@@ -390,97 +390,97 @@ group: people
   
   <h2>Lab Alumni</h2>
   {% for people in site.data.peopleAlumni %}
-    <hr>
-      <div class="col-sm-3 text-center">
-        <div class="row">
-          <div class="col-sm-3">
-            {{people.id | people.title | markdownify }}
-          </div>
-          <div class="col-sm-3">
-            <img src = "{{people.image}}" alt = "Pic" style="max-height: 200px;">
-          </div>
-          <div class="col-sm-3">
-            <img src = "{{people.monster}}" alt = "Monster" style="max-height: 100px;">
-          </div>
+  <hr>
+  <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{people.id}}"></div>
+  <div style="font-size: 120% !important; width: 100%">{{ people.title | markdownify }}</div>
+  <div class="row" style="padding-top: 20px; margin-top: - 20px;">
+    <div class="col-sm-3 text-center">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src = "{{people.image}}" alt = "Pic" style="max-height: 200px;">
+        </div>
+        <div class="col-sm-3">
+          <img src = "{{people.monster}}" alt = "Monster" style="max-height: 100px;">
         </div>
       </div>
-      <div class="col-sm-6">
-        {{ people.bio | markdownify }}
-      </div>
-      <div class="col-sm-3">
-        <ul>
-          {% if people.funfact %}
-            <strong>Fun Fact</strong>
-            <div><em>{{ people.funfact | markdownify }}</em></div>
-          {% endif %}
-          {% if people.email %}
-            <a href= "{people.email}" alt = "email link: {{people.email}}">
-              <img class="inline-block mem-logo" src="/static/img/logo/email_logo.svg">
-              {{people.email}} 
-            </a> <br>
-          {% endif %}
-          {% if people.website %}
-            <a href= "https://{people.website}">
-              <img class="inline-block mem-logo" src="/static/img/logo/website_logo.svg">
-              {{people.website}} 
-            </a> <br>
-          {% endif %}
-          {% if people.pmcid %}
-            <strong>PMCID</strong>
-            <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> 
-              {{publication.pmcid}}
-            </a> <br>
-          {% endif %}
-          {% if people.orcid %}
-            <a href="http://orcid.org/{{people.orcid}}" class="align-middle"> 
-              <img class="inline-block mem-logo" src="/static/img/logo/orcid_logo.svg">
-              {{people.orcid}}
-            </a> <br>
-          {% endif %}
-          {% if people.scholar %}
-            <a href= "http://scholar.google.com/citations?user={{people.scholar}}">
-            <img class="inline-block mem-logo" src="/static/img/logo/gscholar_logo.svg">
-            Scholar Citations </a> <br>
-          {% endif %}
-          {% if people.linkedin %}
-            <a href= "http://www.linkedin.com/in/{{people.linkedin}}"> 
-            <img class="inline-block mem-logo" src="/static/img/logo/linkedin_logo.svg">
-            LinkedIn </a> <br>
-          {% endif %}
-          {% if people.twitter %}
-            <a href= "http://twitter.com/{{people.twitter}}">
-              <img class="inline-block mem-logo" src="/static/img/logo/twitter_logo.svg">
-              @{{people.twitter}} 
-            </a> <br>
-          {% endif %}
-          {% if people.bluesky %}
-            <a href= "https://bsky.app/profile/{people.bluesky}.bsky.social">
-              <img class="inline-block mem-logo" src="/static/img/logo/bluesky_logo.svg">
-              @{{people.bluesky}} 
-            </a> <br>
-          {% endif %}
-          {% if people.mastodon %}
-            <a href= "https://{people.mastodon}">
-              <img class="inline-block mem-logo" src="/static/img/logo/mastodon_logo.svg">
-              {{people.mastodon}} 
-            </a> <br>
-          {% endif %}
-          {% if people.github %}
-            <a href= "http://github.com/{{people.github}}">
-              <img class="inline-block mem-logo" src="/static/img/logo/github_logo.svg">
-              {{people.github}}
-            </a> <br>
-          {% endif %}
-          {% if people.links %}
-            <strong>Additional Links</strong>{% if people.links.size > 1 %}{% endif %}:
-            {% for link in people.links %}
-              <li style="margin-left: 2%;"><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
-            {% endfor %}
-          {% endif %}
-        </ul>
-      </div>
     </div>
-    <br>
+    <div class="col-sm-6">
+      {{ people.bio | markdownify }}
+    </div>
+    <div class="col-sm-3">
+      <ul>
+        {% if people.funfact %}
+          <strong>Fun Fact</strong>
+          <div><em>{{ people.funfact | markdownify }}</em></div>
+        {% endif %}
+        {% if people.email %}
+          <a href= "{people.email}" alt = "email link: {{people.email}}">
+            <img class="inline-block mem-logo" src="/static/img/logo/email_logo.svg">
+            {{people.email}} 
+          </a> <br>
+        {% endif %}
+        {% if people.website %}
+          <a href= "https://{people.website}">
+            <img class="inline-block mem-logo" src="/static/img/logo/website_logo.svg">
+            {{people.website}} 
+          </a> <br>
+        {% endif %}
+        {% if people.pmcid %}
+          <strong>PMCID</strong>
+          <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> 
+            {{publication.pmcid}}
+          </a> <br>
+        {% endif %}
+        {% if people.orcid %}
+          <a href="http://orcid.org/{{people.orcid}}" class="align-middle"> 
+            <img class="inline-block mem-logo" src="/static/img/logo/orcid_logo.svg">
+            {{people.orcid}}
+          </a> <br>
+        {% endif %}
+        {% if people.scholar %}
+          <a href= "http://scholar.google.com/citations?user={{people.scholar}}">
+          <img class="inline-block mem-logo" src="/static/img/logo/gscholar_logo.svg">
+          Scholar Citations </a> <br>
+        {% endif %}
+        {% if people.linkedin %}
+          <a href= "http://www.linkedin.com/in/{{people.linkedin}}"> 
+          <img class="inline-block mem-logo" src="/static/img/logo/linkedin_logo.svg">
+          LinkedIn </a> <br>
+        {% endif %}
+        {% if people.twitter %}
+          <a href= "http://twitter.com/{{people.twitter}}">
+            <img class="inline-block mem-logo" src="/static/img/logo/twitter_logo.svg">
+            @{{people.twitter}} 
+          </a> <br>
+        {% endif %}
+        {% if people.bluesky %}
+          <a href= "https://bsky.app/profile/{people.bluesky}.bsky.social">
+            <img class="inline-block mem-logo" src="/static/img/logo/bluesky_logo.svg">
+            @{{people.bluesky}} 
+          </a> <br>
+        {% endif %}
+        {% if people.mastodon %}
+          <a href= "https://{people.mastodon}">
+            <img class="inline-block mem-logo" src="/static/img/logo/mastodon_logo.svg">
+            {{people.mastodon}} 
+          </a> <br>
+        {% endif %}
+        {% if people.github %}
+          <a href= "http://github.com/{{people.github}}">
+            <img class="inline-block mem-logo" src="/static/img/logo/github_logo.svg">
+            {{people.github}}
+          </a> <br>
+        {% endif %}
+        {% if people.links %}
+          <strong>Additional Links</strong>{% if people.links.size > 1 %}{% endif %}:
+          {% for link in people.links %}
+            <li style="margin-left: 2%;"><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+  <br>
   {% endfor %}
 
 </div>

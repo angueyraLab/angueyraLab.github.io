@@ -1,8 +1,8 @@
-- title: "Technician"
+- title: "Technician: Position Available"
   id: "Tech position available"
   # bio: ""
   # image: "/static/img/ppl/TBD.png"
-  # monster: "/static/img/ppl/TBD_monster.png"
+  monster: "/static/img/ppl/monster_TBD.png"
   # email:  (a) umd.edu
   # mastodon: 
   # orcid: 
