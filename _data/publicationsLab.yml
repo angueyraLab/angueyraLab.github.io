@@ -6,7 +6,9 @@
   pmid: "40333813"
   pmcid: "PMC12057980"
   pdf: "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003157"
-  links: "https://biology.umd.edu/news/umd-neuroscientist-calls-clearer-nomenclature-photoreceptor-research"
+  links: 
+  - name: UMD News Blurb
+    url: https://biology.umd.edu/news/umd-neuroscientist-calls-clearer-nomenclature-photoreceptor-research
 
 #
 # - title: "titlehere"
