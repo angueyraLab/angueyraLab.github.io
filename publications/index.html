@@ -7,7 +7,47 @@ group: publications
 <h1>Publications</h1>
 <hr>
 <h2>Angueyra Lab's peer-reviewed publications and preprints</h2>
-<p><em>These will come soon...</em></p>
+<div class="container-fluid">
+  {% for publication in site.data.publicationsLab %}
+          <hr>
+          <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
+          <div style="font-size: 120% !important; width: 100%">{{ publication.title | markdownify }}</div><div>{{ publication.citation | markdownify }}</div>
+          </div>
+          <div class="row" style="padding-top: 20px; margin-top: - 20px;">
+            <div class="col-sm-6">
+              <img class = "img-responsive" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
+            </div>
+            <ul class="col-sm-6">
+                <!--PMID-->
+                {% if publication.pmid %}
+                <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+                {% endif %}
+                <!--PMCID - optional -->
+                {% if publication.pmcid %}
+                <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+                {% endif %}
+                <!--PMID-->
+                {% if publication.doi %}
+                <li>DOI: <a href="http://doi.org/{{publication.doi}}" alt = "doi: {{publication.doi}}"> {{publication.doi}}</a></li>
+                {% endif %}
+                <!--Biorxiv - optional -->
+                {% if publication.biorxiv %}
+                <li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
+                {% endif %}
+                <!-- PDF -->
+                <li><a href="{{publication.pdf}}" alt = "PDF"> Full Text</a></li>
+                <!--additional links - optional-->
+                {% if publication.links %}
+                <strong>Additional Links</strong>{% if publication.links.size > 1 %}s{% endif %}:
+                        {% for link in publication.links %}
+                        <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                        {% endfor %}
+                {% endif %}
+            </ul>
+          </div>
+          <br>
+  {% endfor %}
+</div>
 <h2>Juan's peer-reviewed publications and preprints</h2>
 <div class="container-fluid">
   {% for publication in site.data.publications %}

@@ -1,11 +1,35 @@
-- title: "Meghan Hnilo (Biology Honors)"
-  id: "hnilo"
-  bio: "I am a current undergraduate student studying neuroscience at the University of Maryland, set to graduate in the Spring of 2025. I have recently been studying horizontal cells in the retina of zebrafish at the Angueyra lab, specifically how synaptic connectivity influences the cell fate of photoreceptors.  During my time at the Visual System Development lab, I am excited to explore how different transgenic lines vary in cellular development in the retina."
-  image: "/static/img/ppl/Hnilo.jpeg"
-  monster: "/static/img/ppl/monster_MH.png"
-  email: meghanhnilo (a) gmail.com
-  linkedin: meghan-hnilo-a06b74252
-  funfact:  I am a huge bookworm
+- title: "Annabella Rinaldi (Integrated Life Sciences Honors)"
+  id: "rinaldi"
+  bio: "I am a second year undergraduate student at University of Maryland, College park, pursuing a double degree in biological sciences with a concentration in neurobiology and physiology as well as psychology. I am also in the integrated life sciences honors college and will be pursuing the biological science honors thesis. During my time at the Visual System Development lab I hope to explore the connection between different transcription factors and their mutant phenotypes and expand my knowledge how genetics impact disease."
+  image: "/static/img/ppl/Rinaldi.jpeg"
+  monster: "/static/img/ppl/monster_AR.png"
+  email: undisclosed (a) terpmail.umd.edu
+  funfact: I volunteer as an EMT for the Wheaton Volunteer Rescue Squad
+
+- title: "Eleni Antoniades (Gemstone Honors)"
+  id: "antoniades"
+  bio: "in progress"
+  image: "/static/img/ppl/monster_TBD.png"
+  monster: "/static/img/ppl/monster_TBD.png"
+  # email: lkwak1 (a) terpmail.umd.edu
+  funfact: in progress
+
+- title: "Sofia Apgar (General Biology)"
+  id: "apgar"
+  bio: "I am a fourth-year undergraduate student at the University of Maryland, College Park majoring in General Biology. As a peer research mentor in the FIRE CellEx program, I have spent the past two years studying ribosome biogenesis. At the Visual System Development Lab, I am excited to explore the transcription factors underlying the development and differentiation of horizontal cells in zebrafish, as well as how synaptic connectivity may influence the cell fate of photoreceptors."
+  image: "/static/img/ppl/Apgar.png"
+  monster: "/static/img/ppl/monster_TBD.png"
+  linkedin: sofia-apgar
+  website: https://sofia-art.carrd.co/#
+  funfact: I am a painter and enjoy swing dancing and knitting in my free time!
+
+- title: "Teague McCarthy (Biology)"
+  id: "mccarthy"
+  bio: "in progress"
+  image: "/static/img/ppl/monster_TBD.png"
+  monster: "/static/img/ppl/monster_TBD.png"
+  # email: lkwak1 (a) terpmail.umd.edu
+  funfact: in progress
 
 - title: "Leah Kwak (Gemstone Honors)"
   id: "kwak"
@@ -14,11 +38,3 @@
   monster: "/static/img/ppl/monster_LK.png"
   email: lkwak1 (a) terpmail.umd.edu
   funfact: Alice in Wonderland is my favorite film
-
-- title: "Annabella Rinaldi (Integrated Life Sciences Honors)"
-  id: "rinaldi"
-  bio: "I am a second year undergraduate student at University of Maryland, College park, pursuing a double degree in biological sciences with a concentration in neurobiology and physiology as well as psychology. I am also in the integrated life sciences honors college and will be pursuing the biological science honors thesis. During my time at the Visual System Development lab I hope to explore the connection between different transcription factors and their mutant phenotypes and expand my knowledge how genetics impact disease."
-  image: "/static/img/ppl/Rinaldi.jpeg"
-  monster: "/static/img/ppl/monster_AR.png"
-  email: undisclosed (a) terpmail.umd.edu
-  funfact: I volunteer as an EMT for the Wheaton Volunteer Rescue Squad
