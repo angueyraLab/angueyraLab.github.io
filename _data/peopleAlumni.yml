@@ -9,10 +9,9 @@
 
 - title: "Stephen Wiafe-Amoako (Former Undergrad: Biomedical Engineering)"
   id: "hnilo"
-  bio: "My interests lie at the intersection of engineering, biology, and data."
+  bio: "Interested on the intersection between engineering, biology, and data."
   image: "/static/img/ppl/WiafeAmoako.jpg"
   monster: "/static/img/ppl/monster_SWA.png"
-  email: meghanhnilo (a) gmail.com
   linkedin: stephen-wiafe-amoako-076a37237
   funfact:  I am really into basketball and badminton, and I love diving into science fiction and technical books.
 
@@ -26,9 +25,9 @@
   mastodon: neuromatch.social/@usuy
   orcid: 0000-0001-7868-9934
   # links: 
-  # funfact: "In my free time I enjoy rock climbing, knitting and bringing old microscopes back to life"
+  funfact: "In my free time I enjoy rock climbing, knitting and bringing old microscopes back to life"
 
-- title: "Jared Mitchell (Former Undergrad)"
+- title: "Jared Mitchell (Former Undergrad: Integrated Life Sciences)"
   id: "Jared"
   bio: "Currently: UMD undergrad"
   image: "/static/img/ppl/Mitchell.png"
