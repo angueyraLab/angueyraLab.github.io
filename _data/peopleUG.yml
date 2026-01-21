@@ -11,14 +11,14 @@
   bio: "in progress"
   image: "/static/img/ppl/monster_TBD.png"
   monster: "/static/img/ppl/monster_EA.png"
-  # email: lkwak1 (a) terpmail.umd.edu
+  email: undisclosed (a) terpmail.umd.edu
   funfact: in progress
 
 - title: "Sofia Apgar (General Biology)"
   id: "apgar"
   bio: "I am a fourth-year undergraduate student at the University of Maryland, College Park majoring in General Biology. As a peer research mentor in the FIRE CellEx program, I have spent the past two years studying ribosome biogenesis. At the Visual System Development Lab, I am excited to explore the transcription factors underlying the development and differentiation of horizontal cells in zebrafish, as well as how synaptic connectivity may influence the cell fate of photoreceptors."
   image: "/static/img/ppl/Apgar.png"
-  monster: "/static/img/ppl/monster_TBD.png"
+  monster: "/static/img/ppl/monster_SA.png"
   linkedin: sofia-apgar
   website: https://sofia-art.carrd.co/#
   funfact: I am a painter and enjoy swing dancing and knitting in my free time!
@@ -26,15 +26,8 @@
 - title: "Teague McCarthy (Biology)"
   id: "mccarthy"
   bio: "in progress"
-  image: "/static/img/ppl/monster_TBD.png"
-  monster: "/static/img/ppl/monster_TBD.png"
-  # email: lkwak1 (a) terpmail.umd.edu
+  image: "/static/img/ppl/McCarthy.jpg"
+  monster: "/static/img/ppl/monster_TMC.png"
+  email: undisclosed (a) terpmail.umd.edu
   funfact: in progress
 
-- title: "Leah Kwak (Gemstone Honors)"
-  id: "kwak"
-  bio: "I am an undergraduate student at the University of Maryland, College Park majoring in the biological sciences with a concentration in neurobiology and physiology as well as a member in the Gemstone Honors program. I am interested in exploring how the fundamental components of biological processes are correlated and synergize with one another to sustain living systems. I believe that this is the first step in working towards further investigating complex issues such as biological disorders that impact many lives today."
-  image: "/static/img/ppl/Kwak.jpeg"
-  monster: "/static/img/ppl/monster_LK.png"
-  email: lkwak1 (a) terpmail.umd.edu
-  funfact: Alice in Wonderland is my favorite film

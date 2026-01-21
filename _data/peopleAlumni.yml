@@ -7,6 +7,15 @@
   linkedin: meghan-hnilo-a06b74252
   funfact:  I am a huge bookworm
 
+- title: "Leah Kwak (Gemstone Honors)"
+  id: "kwak"
+  # bio: "I am an undergraduate student at the University of Maryland, College Park majoring in the biological sciences with a concentration in neurobiology and physiology as well as a member in the Gemstone Honors program. I am interested in exploring how the fundamental components of biological processes are correlated and synergize with one another to sustain living systems. I believe that this is the first step in working towards further investigating complex issues such as biological disorders that impact many lives today."
+  bio: "Class of 2026 - Biology"
+  image: "/static/img/ppl/Kwak.jpeg"
+  monster: "/static/img/ppl/monster_LK.png"
+  email: lkwak1 (a) terpmail.umd.edu
+  funfact: Alice in Wonderland is my favorite film
+
 - title: "Stephen Wiafe-Amoako (Former Undergrad: Biomedical Engineering)"
   id: "hnilo"
   bio: "Interested on the intersection between engineering, biology, and data."
