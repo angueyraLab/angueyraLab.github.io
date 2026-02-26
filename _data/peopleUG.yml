@@ -1,4 +1,4 @@
-- title: "Annabella Rinaldi (Integrated Life Sciences Honors)"
+- title: "Annabella Rinaldi (Biology Honors)"
   id: "rinaldi"
   bio: "I am a second year undergraduate student at University of Maryland, College park, pursuing a double degree in biological sciences with a concentration in neurobiology and physiology as well as psychology. I am also in the integrated life sciences honors college and will be pursuing the biological science honors thesis. During my time at the Visual System Development lab I hope to explore the connection between different transcription factors and their mutant phenotypes and expand my knowledge how genetics impact disease."
   image: "/static/img/ppl/Rinaldi.jpeg"
@@ -6,9 +6,9 @@
   email: undisclosed (a) terpmail.umd.edu
   funfact: I volunteer as an EMT for the Wheaton Volunteer Rescue Squad
 
-- title: "Eleni Antoniades (University Honors)"
+- title: "Eleni Antoniades (Biology & University Honors)"
   id: "antoniades"
-  bio: "in progress"
+  bio: "I am an undergraduate student at the University of Maryland, College Park, in the Biology Honors program, majoring in General Biological Sciences. I am also a member of the University Honors Program with a strong interest in developmental neuroscience. My particular focus in the lab is on identifying the transcription factors that drive the development of specific photoreceptor subtypes and exploring how these findings could aid nervous system repair."
   image: "/static/img/ppl/monster_TBD.png"
   monster: "/static/img/ppl/monster_EA.png"
   email: undisclosed (a) terpmail.umd.edu
@@ -16,14 +16,14 @@
 
 - title: "Sofia Apgar (General Biology)"
   id: "apgar"
-  bio: "I am a fourth-year undergraduate student at the University of Maryland, College Park majoring in General Biology. As a peer research mentor in the FIRE CellEx program, I have spent the past two years studying ribosome biogenesis. At the Visual System Development Lab, I am excited to explore the transcription factors underlying the development and differentiation of horizontal cells in zebrafish, as well as how synaptic connectivity may influence the cell fate of photoreceptors."
+  bio: "I am a fourth-year undergraduate student at the University of Maryland, College Park majoring in General Biology. As a peer research mentor in the FIRE CellEx program, I have spent the past two years studying ribosome biogenesis. At the Visual System Development Lab, I am exploring how visual behavior changes after defects in retinal development."
   image: "/static/img/ppl/Apgar.png"
   monster: "/static/img/ppl/monster_SA.png"
   linkedin: sofia-apgar
   website: https://sofia-art.carrd.co/#
   funfact: I am a painter and enjoy swing dancing and knitting in my free time!
 
-- title: "Teague McCarthy (Biology)"
+- title: "Teague McCarthy (NeurHonors)"
   id: "mccarthy"
   bio: "in progress"
   image: "/static/img/ppl/McCarthy.jpg"
