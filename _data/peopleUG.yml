@@ -14,20 +14,49 @@
   email: undisclosed (a) terpmail.umd.edu
   funfact: in progress
 
-- title: "Sofia Apgar (General Biology)"
-  id: "apgar"
-  bio: "I am a fourth-year undergraduate student at the University of Maryland, College Park majoring in General Biology. As a peer research mentor in the FIRE CellEx program, I have spent the past two years studying ribosome biogenesis. At the Visual System Development Lab, I am exploring how visual behavior changes after defects in retinal development."
-  image: "/static/img/ppl/Apgar.png"
-  monster: "/static/img/ppl/monster_SA.png"
-  linkedin: sofia-apgar
-  website: https://sofia-art.carrd.co/#
-  funfact: I am a painter and enjoy swing dancing and knitting in my free time!
-
 - title: "Teague McCarthy (NeurHonors)"
   id: "mccarthy"
-  bio: "in progress"
+  bio: "I am an undergraduate student at the University of Maryland, College Park majoring in Neuroscience. I am a member of the Integrated Life Sciences Honors College and am pursuing the Neuroscience Honors Thesis. In the Visual System Development Lab, I am exploring how specific genes affect the development of retinal ganglion cells forming the retinotectal pathway."
   image: "/static/img/ppl/McCarthy.jpg"
   monster: "/static/img/ppl/monster_TMC.png"
   email: undisclosed (a) terpmail.umd.edu
+  funfact: I love all things Pokémon
+
+- title: "McKenna Lam"
+  id: "mckenna"
+  bio: "I am an undergraduate pre-medical student at the University of Maryland, College Park, majoring in Neuroscience with a minor in Archeology. My research interests span molecular, behavioral, and systems neuroscience, particularly in understanding how neural circuits process sensory information and influence behavior. In the lab, I investigate how inhibiting UV sensitive cone through synaptic vesicle blockade alters neural activity and responses to sensory input."
+  image: "/static/img/ppl/McCarthy.jpg"
+  monster: "/static/img/ppl/monster_ML.png"
+  linkedin: mckenna-lam-78bb85251
+  email: undisclosed (a) terpmail.umd.edu
+  funfact: I’ve been to over 20 concerts, including performances by Lauryn Hill, Tyler the Creator, and Metallica!
+
+- title: "Anna Yegorova"
+  id: "mccarthy"
+  bio: "in progress"
+  image: "/static/img/ppl/monster_TBD.png"
+  monster: "/static/img/ppl/monster_AY.png"
+  email: undisclosed (a) terpmail.umd.edu
   funfact: in progress
+
+- title: "Amanda Dorsey"
+  id: "mccarthy"
+  bio: "in progress"
+  image: "/static/img/ppl/monster_TBD.png"
+  monster: "/static/img/ppl/monster_AD.png"
+  email: undisclosed (a) terpmail.umd.edu
+  funfact: in progress
+
+
+
+
+# - title: "Sofia Apgar (General Biology)"
+#   id: "apgar"
+#   bio: "I am a fourth-year undergraduate student at the University of Maryland, College Park majoring in General Biology. As a peer research mentor in the FIRE CellEx program, I have spent the past two years studying ribosome biogenesis. At the Visual System Development Lab, I am exploring how visual behavior changes after defects in retinal development."
+#   image: "/static/img/ppl/Apgar.png"
+#   monster: "/static/img/ppl/monster_SA.png"
+#   linkedin: sofia-apgar
+#   website: https://sofia-art.carrd.co/#
+#   funfact: I am a painter and enjoy swing dancing and knitting in my free time!
+
 

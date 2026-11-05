@@ -1,3 +1,12 @@
+- title: "Sofia Apgar (Former Undergrad: General Biology)"
+  id: "apgar"
+  bio: "Graduated from the General Biology Program in the Spring of 2025."
+  image: "/static/img/ppl/Apgar.png"
+  monster: "/static/img/ppl/monster_SA.png"
+  linkedin: sofia-apgar
+  website: https://sofia-art.carrd.co/#
+  funfact: I am a painter and enjoy swing dancing and knitting in my free time!
+
 - title: "Meghan Hnilo (Former Undergrad: Biology Honors)"
   id: "hnilo"
   bio: "Graduated from the Biology Honors Program in the Spring of 2025. Currently: Graduate Student Penn State Neuroscience."
@@ -7,7 +16,7 @@
   linkedin: meghan-hnilo-a06b74252
   funfact:  I am a huge bookworm
 
-- title: "Leah Kwak (Gemstone Honors)"
+- title: "Leah Kwak (Former Undergrad: Gemstone Honors)"
   id: "kwak"
   # bio: "I am an undergraduate student at the University of Maryland, College Park majoring in the biological sciences with a concentration in neurobiology and physiology as well as a member in the Gemstone Honors program. I am interested in exploring how the fundamental components of biological processes are correlated and synergize with one another to sustain living systems. I believe that this is the first step in working towards further investigating complex issues such as biological disorders that impact many lives today."
   bio: "Class of 2026 - Biology"

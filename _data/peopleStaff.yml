@@ -1,10 +1,18 @@
-- title: "Technician: Position Available"
-  id: "TechTBD"
-  # bio: ""
-  image: "/static/img/ppl/monster_TBD.png"
-  monster: "/static/img/ppl/monster_TBD.png"
-  # email:  (a) umd.edu
-  # mastodon: 
-  # orcid: 
-  # links: 
-  # funfact: ""
+- title: "Will Finch"
+  id: "wfinch"
+  bio: "I earned my B.S. in Cell Biology and Genetics from the University of Maryland, College Park, in 2026. As an undergraduate in Dr. Scott Juntti’s lab and the Biology Honors Program, my thesis investigated the development of social behavior and parent-offspring dynamics in cichlid fish. I am currently a joint technician in Dr. Angueyra’s and Dr. Juntti’s labs, supporting lab operations and research. In the Visual System Development Lab, my work investigates transcription factors important for horizontal cell development and photoreceptor organization in the retina."
+  image: "/static/img/ppl/Finch.jpg"
+  monster: "/static/img/ppl/monster_WF.webp"
+  email: wfinch (a) terpmail.umd.edu
+  funfact: I grew up in Singapore
+
+# - title: "Technician: Position Available"
+#   id: "TechTBD"
+#   # bio: ""
+#   image: "/static/img/ppl/monster_TBD.png"
+#   monster: "/static/img/ppl/monster_TBD.png"
+#   # email:  (a) umd.edu
+#   # mastodon: 
+#   # orcid: 
+#   # links: 
+#   # funfact: ""
